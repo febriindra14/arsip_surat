@@ -19,7 +19,9 @@
           	<div class="col-xs-12">
           		<div class="box">
                 <div class="box-header">
-                  <h3 class="box-title"></h3>
+                  <h3 class="box-title">
+                     <?php echo anchor(site_url('pdf/disposisi'), ' <i class="fa fa-download"></i> PDF', 'class="btn btn-primary btn-sm" title="cetak"'); ?>
+                  </h3>
                   <div class="box-tools">
               
                   </div>

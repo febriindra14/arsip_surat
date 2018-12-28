@@ -21,6 +21,7 @@
                 <div class="box-header">
                   <h3 class="box-title">
                     <a href="#" class="btn btn-primary btn-sm" title="tambah data" data-toggle="modal" onclick="add_jenis()"><i class="glyphicon glyphicon-plus"></i></a>
+                    <?php echo anchor(site_url('pdf'), ' <i class="fa fa-download"></i> PDF', 'class="btn btn-primary btn-sm" title="cetak"'); ?>
                   </h3>
                   <div class="box-tools">
                     

@@ -22,6 +22,7 @@ defined('BASEPATH') or exit('No direct script access allowed');?>
               <div class="box">
                 <div class="box-header">
                  <h3 class='box-title'>
+                   <?php echo anchor(site_url('pdf/surat_keluar'), ' <i class="fa fa-download"></i> PDF', 'class="btn btn-primary btn-sm" title="cetak"'); ?>
                   </h3>
                   <div class="box-tools">
                   

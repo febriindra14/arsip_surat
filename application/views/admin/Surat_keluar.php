@@ -23,6 +23,7 @@ defined('BASEPATH') or exit('No direct script access allowed');?>
                 <div class="box-header">
                  <h3 class='box-title'>
                   <a href="<?php echo base_url('surat_keluar/tambah'); ?>" title='tambah data' class="btn btn-primary btn-sm"><i class="glyphicon glyphicon-plus"></i></a>
+                    <?php echo anchor(site_url('pdf/surat_keluar'), ' <i class="fa fa-download"></i> PDF', 'class="btn btn-primary btn-sm" title="cetak"'); ?>
                   </h3>
                   <div class="box-tools">
                   
